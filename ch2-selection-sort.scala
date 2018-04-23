@@ -1,8 +1,6 @@
 object Main {
   def main(args: Array[String]) = {
-    val array = Array(5, 2, 3, 7, 6, 10)
-
-    println(selectionSort(array, _ > _).mkString(" "))
+    println(selectionSort(Array(5, 2, 3, 7, 6, 10), _ > _).mkString(" "))
     println(selectionSort(Array(10, 1)).mkString(" "))
 
     println(selectionSort(Array()).mkString(" "))
