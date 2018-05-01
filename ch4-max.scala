@@ -6,4 +6,5 @@ object Main extends App {
    
   println(max(2 :: 4 :: Nil))
   println(max(6 :: 5 :: Nil))
+  println(max(Seq()))
 }
